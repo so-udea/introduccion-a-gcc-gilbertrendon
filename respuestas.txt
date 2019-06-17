@@ -12,4 +12,15 @@ argv: Es el arreglo con los parámetros que se le envían a el método.
 	¿Como se usa el programa?
 Siempre que el parámetro tenga el valor de debug se va a imprimir PROGRAM DEBUG MODE, cuando el parámetro tenga el valor de -file PROGRAM READ FILENAME y a continuación toma el siguiente texto como el nombre de el archivo y finalmente de los demás valores para los parámetros los ignora y termina la ejecución a no ser que después de estos parámetros sigan valores válidos.
 
+3) Análisis de código:
+¿Que hace la funcion atoi?
+La función atoi convierte un string en números enteros siempre y cuando el string esté compuesto por números, en caso de que el string tenga letras devuelve cero.
+
+Ademas de atoi existen otras funciones que permitan convertir cadenas de caracteres a numeros reales ¿cuales?
+
+Existe la función atof que convierte una cadena a un número real.
+
+Existen funciones que convierten valores numericos a cadenas de caracteres ¿cuales?
+sprintf
+sscanf
 
