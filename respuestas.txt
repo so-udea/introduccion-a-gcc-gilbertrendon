@@ -1,7 +1,7 @@
-#include <stdio.h>
+Actividad 2
 
-int main()
-{
-    printf( "Mr. Anderson, welcome back!!!\n" )
-    return 0;
-}
+2. 
+3. Había un error de punto y coma que faltaban luego del print
+
+
+
