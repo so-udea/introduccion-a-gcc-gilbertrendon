@@ -1,11 +1,15 @@
 Actividad 2
 
-2. 
+Compilando una primera aplicación:
 3. Había un error de punto y coma que faltaban luego del print
 
 2) Análisis de código:
 
+	¿Que hacen los parametros argc y argv?
 argc: Sirve para saber el número de parámetros que se le van a enviar a un método
 argv: Es el arreglo con los parámetros que se le envían a el método.
+
+	¿Como se usa el programa?
+Siempre que el parámetro tenga el valor de debug se va a imprimir PROGRAM DEBUG MODE, cuando el parámetro tenga el valor de -file PROGRAM READ FILENAME y a continuación toma el siguiente texto como el nombre de el archivo y finalmente de los demás valores para los parámetros los ignora y termina la ejecución a no ser que después de estos parámetros sigan valores válidos.
 
 
