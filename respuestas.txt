@@ -3,5 +3,9 @@ Actividad 2
 2. 
 3. Había un error de punto y coma que faltaban luego del print
 
+2) Análisis de código:
+
+argc: Sirve para saber el número de parámetros que se le van a enviar a un método
+argv: Es el arreglo con los parámetros que se le envían a el método.
 
 
