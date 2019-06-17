@@ -21,6 +21,14 @@ Ademas de atoi existen otras funciones que permitan convertir cadenas de caracte
 Existe la función atof que convierte una cadena a un número real.
 
 Existen funciones que convierten valores numericos a cadenas de caracteres ¿cuales?
-sprintf
-sscanf
+sprintf: nos permite mucho más que transformar el número a cadena, nos permite cambiar de base, introducir más datos,etc.
+int sprintf(char *cadena, const char *formato, ...);
+Se puede imprimir una cadena que tenga texto junto con números, donde implícitamente se están convirtiendo los números a formato de cadenas. 
+itoa(): Función de stdlib.h, no es estandar pero sirve para dicha funcionalidad de convertir número a cadena.
+sscanf:La función sscanf() es similar a la función scanf() la diferencia es que en lugar de tomar los datos de la entrada, los toma del propio programa. 
+Normalmente se utiliza para obtener los datos de una variable que se ha obtenido bien de la entrada o de un fichero o de una base de datos.
+Ejm: sscanf("12, 34, 45", "%d, %d, %d", &x, &y, &z);
+Asigna a cada variable x,y,z un valor.
+
+
 
